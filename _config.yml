@@ -1,0 +1,93 @@
+---
+booktitle: Proceedings of the 25th Conference on Uncertainty in Artificial Intelligence
+shortname: UAI
+year: '2009'
+start: &1 2009-06-18
+end: 2009-06-21
+conference_number: '25'
+volume: R7
+published: 2026-10-04
+firstpublished: 2009-06-18
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: UAI-2009
+month: 0
+cycles: false
+bibtex_editor: Bilmes, Jeff and Ng, Andrew Y.
+editor:
+- given: Jeff
+  family: Bilmes
+- given: Andrew Y.
+  family: Ng
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 25th Conference on Uncertainty in Artificial Intelligence
+    Held in Montreal, QC, Canada on 18-21 June 2009
+
+  Published as Reissue 7 by the Proceedings of Machine Learning Research on 04 October 2026.
+
+  Volume Edited by:
+    Jeff Bilmes
+    Andrew Y. Ng
+
+  Series Editors:
+    Tegan Emerson
+    Hoel Kervadec
+    Neil D. Lawrence
+date_str: 18--21 Jun
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/r7"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: r7
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Reissue
+volume_dir: r7
+email: ''
+conference:
+  name: Uncertainty in Artificial Intelligence
+  url: https://www.auai.org/uai2009/
+  location: Montreal, QC, Canada
+  dates:
+  - *1
+  - 2009-06-19
+  - 2009-06-20
+  - 2009-06-21
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: uai2009_clean.bib
+# Site settings
+# Original source:  uai2009_clean.bib
