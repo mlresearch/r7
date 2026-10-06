@@ -3,7 +3,7 @@ abstract: In intractable, undirected graphical models, an intuitive way of creat
   structured mean field approximations is to select an acyclic tractable subgraph.
   We show that the hardness of computing the objective function and gradient of the
   mean field objective qualitatively depends on a simple graph property. If the tractable
-  subgraph has this property- we call such subgraphs v-acyclic-a very fast block coordinate
+  subgraph has this propertywe call such subgraphs v-acyclic-a very fast block coordinate
   ascent algorithm is possible. If not, optimization is harder, but we show a new
   algorithm based on the construction of an auxiliary exponential family that can
   be used to make inference possible in this case as well. We discuss the advantages
