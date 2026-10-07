@@ -2,7 +2,7 @@
 booktitle: Proceedings of the 25th Conference on Uncertainty in Artificial Intelligence
 shortname: UAI
 year: '2009'
-start: &1 2009-06-18
+start: 2009-06-18
 end: 2009-06-21
 conference_number: '25'
 volume: R7
@@ -72,7 +72,7 @@ conference:
   url: https://www.auai.org/uai2009/
   location: Montreal, QC, Canada
   dates:
-  - *1
+  - 2009-06-18
   - 2009-06-19
   - 2009-06-20
   - 2009-06-21
